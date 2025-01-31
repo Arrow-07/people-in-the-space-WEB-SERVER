@@ -1,0 +1,79 @@
+body {
+  background-color: #001f3f;
+  color: #ffffff;
+  font-family: 'Courier Prime', monospace;
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  padding: 10px;
+  margin: 10px 0;
+}
+
+div:nth-child(3) > div:nth-child(2) {
+  font-size: 32px;
+  font-weight: bold;
+  color: #00aaff;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+div:nth-child(1) {
+  font-size: 28px;
+  color: #00aaff;
+}
+
+div:nth-child(2) {
+  font-size: 24px;
+  color: #ccb800;
+}
+
+div:nth-child(4), div:nth-child(5) {
+  font-size: 20px;
+  color: #0055aa;
+}
+
+button {
+  background-color: #00aaff;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+button:hover {
+  background-color: #0088cc;
+}
+
+#peopleTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-size: 18px; /* Aumentato da 16px a 18px */
+}
+
+#peopleTable th, #peopleTable td {
+  border: 1px solid #ffffff;
+  padding: 15px; /* Aumentato da 10px a 15px */
+  text-align: left;
+}
+
+#peopleTable th {
+  background-color: #0077cc; /* Cambiato da #0055aa a #0077cc per maggiore contrasto */
+  color: #ffffff;
+}
+
+#peopleTable td {
+  background-color: #0055aa; /* Cambiato da #003f7f a #0055aa per maggiore contrasto */
+  color: #ffffff;
+}
+
+#peopleTable tr:nth-child(even) td {
+  background-color: #004488; /* Aggiunto colore alternato per le righe */
+}
